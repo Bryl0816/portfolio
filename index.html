@@ -110,6 +110,7 @@ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/sv
       <li><a href="#work"     class="nl text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors" :class="s==='work'?'on !text-zinc-900 dark:!text-white':''">Work</a></li>
       <li><a href="#about"   class="nl text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors" :class="s==='about'?'on !text-zinc-900 dark:!text-white':''">About</a></li>
       <li><a href="#reviews" class="nl text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors" :class="s==='reviews'?'on !text-zinc-900 dark:!text-white':''">Reviews</a></li>
+      <li><a href="#experience" class="nl text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors" :class="s==='experience'?'on !text-zinc-900 dark:!text-white':''">Experience</a></li>
       <li><a href="#contact" class="nl text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors" :class="s==='contact'?'on !text-zinc-900 dark:!text-white':''">Contact</a></li>
     </ul>
 
@@ -142,6 +143,7 @@ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/sv
       <li><a href="#work"     @click="mm=false" class="block text-zinc-700 dark:text-zinc-300 hover:text-accent transition-colors">Work</a></li>
       <li><a href="#about"   @click="mm=false" class="block text-zinc-700 dark:text-zinc-300 hover:text-accent transition-colors">About</a></li>
       <li><a href="#reviews" @click="mm=false" class="block text-zinc-700 dark:text-zinc-300 hover:text-accent transition-colors">Reviews</a></li>
+      <li><a href="#experience" @click="mm=false" class="block text-zinc-700 dark:text-zinc-300 hover:text-accent transition-colors">Experience</a></li>
       <li><a href="#contact" @click="mm=false" class="block text-zinc-700 dark:text-zinc-300 hover:text-accent transition-colors">Contact</a></li>
       <li class="pt-2 border-t border-zinc-100 dark:border-zinc-900">
         <a href="#contact" @click="mm=false" class="inline-flex shimmer bg-accent text-white font-medium text-sm px-5 py-2.5 rounded-full">Hire me →</a>
@@ -438,6 +440,125 @@ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/sv
   </div>
 </section>
 
+<!-- ═══ WORK EXPERIENCE ═══ -->
+<section id="experience" class="py-24">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="mb-14">
+      <p class="reveal text-xs font-medium text-accent tracking-widest uppercase mb-3">Where I've worked</p>
+      <h2 class="reveal d1 font-display font-bold text-4xl md:text-5xl text-zinc-900">Work Experience</h2>
+    </div>
+
+    <div class="relative border-l-2 border-zinc-200 ml-3 md:ml-6 space-y-12">
+
+      <!-- Freelancer -->
+      <div class="reveal relative pl-8 md:pl-12">
+        <div class="absolute -left-[9px] md:-left-[9px] top-1.5 w-4 h-4 rounded-full bg-accent border-4 border-white"></div>
+        <div class="bg-white rounded-2xl p-6 md:p-8 border border-zinc-200 hover:shadow-lg transition-shadow">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-4">
+            <h3 class="font-display font-bold text-lg text-zinc-900">Freelancer</h3>
+            <span class="text-xs font-medium text-accent bg-accent/10 px-3 py-1 rounded-full whitespace-nowrap">February 2026 - Present</span>
+          </div>
+          <ul class="text-zinc-600 text-sm leading-relaxed space-y-2 list-disc list-inside">
+            <li>Designed logos, posters, tarpaulins, and social media graphics for clients.</li>
+            <li>Developed web-based management systems using PHP, MySQL, HTML, CSS, and JavaScript.</li>
+            <li>Created responsive UI designs and maintained web applications.</li>
+            <li>Collaborated with clients to deliver quality projects on time.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Project Technical Aide - Synqbox -->
+      <div class="reveal relative pl-8 md:pl-12">
+        <div class="absolute -left-[9px] md:-left-[9px] top-1.5 w-4 h-4 rounded-full bg-accent border-4 border-white"></div>
+        <div class="bg-white rounded-2xl p-6 md:p-8 border border-zinc-200 hover:shadow-lg transition-shadow">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-4">
+            <h3 class="font-display font-bold text-lg text-zinc-900">Project Technical Aide <span class="font-normal text-zinc-500">— Synqbox Software Development Services</span></h3>
+            <span class="text-xs font-medium text-accent bg-accent/10 px-3 py-1 rounded-full whitespace-nowrap">November 2025 - January 2026</span>
+          </div>
+          <ul class="text-zinc-600 text-sm leading-relaxed space-y-2 list-disc list-inside">
+            <li>Provided technical and administrative support in project implementation and daily operations.</li>
+            <li>Created and managed QGIS maps for spatial data visualization and analysis.</li>
+            <li>Assisted with data entry, data cleaning, analysis, report preparation, and document management.</li>
+            <li>Performed User Acceptance Testing (UAT) by testing system features, identifying defects, documenting issues, and verifying that implemented functionalities met user and project requirements.</li>
+            <li>Coordinated with team members to ensure efficient workflow and timely completion of assigned tasks.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Project Technical Aide VI - DOST R2 -->
+      <div class="reveal relative pl-8 md:pl-12">
+        <div class="absolute -left-[9px] md:-left-[9px] top-1.5 w-4 h-4 rounded-full bg-accent border-4 border-white"></div>
+        <div class="bg-white rounded-2xl p-6 md:p-8 border border-zinc-200 hover:shadow-lg transition-shadow">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-4">
+            <h3 class="font-display font-bold text-lg text-zinc-900">Project Technical Aide VI <span class="font-normal text-zinc-500">— Department of Science and Technology Region 2</span></h3>
+            <span class="text-xs font-medium text-accent bg-accent/10 px-3 py-1 rounded-full whitespace-nowrap">May 2025 - October 2025</span>
+          </div>
+          <ul class="text-zinc-600 text-sm leading-relaxed space-y-2 list-disc list-inside">
+            <li>Provided technical and administrative support in project implementation.</li>
+            <li>Created and managed QGIS maps for spatial data visualization and analysis.</li>
+            <li>Assisted in data encoding, data cleaning, report preparation, and documentation.</li>
+            <li>Supported computer system setup, maintenance, and coordination tasks.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Technical & Administrative Support - People360 -->
+      <div class="reveal relative pl-8 md:pl-12">
+        <div class="absolute -left-[9px] md:-left-[9px] top-1.5 w-4 h-4 rounded-full bg-accent border-4 border-white"></div>
+        <div class="bg-white rounded-2xl p-6 md:p-8 border border-zinc-200 hover:shadow-lg transition-shadow">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-4">
+            <h3 class="font-display font-bold text-lg text-zinc-900">Technical & Administrative Support <span class="font-normal text-zinc-500">— People360 Consulting Corporation</span></h3>
+            <span class="text-xs font-medium text-accent bg-accent/10 px-3 py-1 rounded-full whitespace-nowrap">January 2024 - January 2025</span>
+          </div>
+          <ul class="text-zinc-600 text-sm leading-relaxed space-y-2 list-disc list-inside">
+            <li>Provided technical assistance and administrative support to ensure smooth daily operations.</li>
+            <li>Assisted in troubleshooting computer hardware, software, and network issues.</li>
+            <li>Managed and organized files, documents, and databases for efficient record-keeping.</li>
+            <li>Supported the setup and maintenance of office equipment including printers, routers, and workstations.</li>
+            <li>Prepared reports, memos, and correspondence for management and staff.</li>
+            <li>Coordinated meetings, schedules, and communications between departments.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Graphic Designer - BIRDC -->
+      <div class="reveal relative pl-8 md:pl-12">
+        <div class="absolute -left-[9px] md:-left-[9px] top-1.5 w-4 h-4 rounded-full bg-accent border-4 border-white"></div>
+        <div class="bg-white rounded-2xl p-6 md:p-8 border border-zinc-200 hover:shadow-lg transition-shadow">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-4">
+            <h3 class="font-display font-bold text-lg text-zinc-900">Graphic Designer <span class="font-normal text-zinc-500">— Business Intelligence Research and Development Center</span></h3>
+            <span class="text-xs font-medium text-accent bg-accent/10 px-3 py-1 rounded-full whitespace-nowrap">July 2023 - December 2023</span>
+          </div>
+          <ul class="text-zinc-600 text-sm leading-relaxed space-y-2 list-disc list-inside">
+            <li>Conceptualized and designed marketing materials including logos, posters, brochures, social media graphics, and web visuals.</li>
+            <li>Collaborated with clients and marketing teams to translate ideas into compelling visual designs.</li>
+            <li>Ensured brand consistency across digital and print media.</li>
+            <li>Utilized design software such as Adobe Photoshop, Illustrator, and Canva to produce high-quality outputs.</li>
+            <li>Edited photos, enhanced layouts, and prepared final artwork for printing or digital publication.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Assistant Network Technician - Zavon -->
+      <div class="reveal relative pl-8 md:pl-12">
+        <div class="absolute -left-[9px] md:-left-[9px] top-1.5 w-4 h-4 rounded-full bg-accent border-4 border-white"></div>
+        <div class="bg-white rounded-2xl p-6 md:p-8 border border-zinc-200 hover:shadow-lg transition-shadow">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-4">
+            <h3 class="font-display font-bold text-lg text-zinc-900">Assistant Network Technician <span class="font-normal text-zinc-500">— Zavon General Merchandizing</span></h3>
+            <span class="text-xs font-medium text-accent bg-accent/10 px-3 py-1 rounded-full whitespace-nowrap">January 2022 - June 2022</span>
+          </div>
+          <ul class="text-zinc-600 text-sm leading-relaxed space-y-2 list-disc list-inside">
+            <li>Assisted in the installation, configuration, and maintenance of network devices including routers, switches, and access points.</li>
+            <li>Supported troubleshooting of LAN/WAN connectivity issues to ensure stable network performance.</li>
+            <li>Monitored network systems and performed routine diagnostics to identify and resolve potential problems.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- ═══ CONTACT ═══ -->
 <section id="contact" class="py-24">
   <div class="max-w-6xl mx-auto px-6">
@@ -555,7 +676,7 @@ function app() {
     updateSection() {
       const atBottom = (window.innerHeight + window.scrollY) >= document.body.scrollHeight - 60;
       if (atBottom) { this.s = 'contact'; return; }
-      const ids = ['contact','reviews','about','work','services','hero'];
+      const ids = ['contact','experience','reviews','about','work','services','hero'];
       for (const id of ids) {
         const el = document.getElementById(id);
         if (el && window.scrollY >= el.offsetTop - 130) { this.s = id; return; }
